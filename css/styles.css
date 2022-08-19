@@ -1,0 +1,56 @@
+body {
+    background-image: repeating-linear-gradient(white 0%, grey 55%, black);
+}
+
+.navigation {
+    background-image: none;
+    color: black;
+    position: sticky;
+    width: 100;
+    top: 0;
+    right: 0;
+}
+
+.nav-list {
+    font-size: .8em;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+.nav-link:visited {
+    color: red;
+}
+
+main {
+    columns: 2;
+    column-width: 30px;
+    column-gap: 2em;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 25em;
+}
+.profile {
+    max-width: 100%;
+    object-fit: cover;
+    margin-top: 1em;
+    border-radius: 15px;
+}
+
+figure {
+    max-width: 100%;
+    object-fit: cover;
+    margin-top: 2em;
+    border-radius: 15px;
+}
+figcaption {
+    font-size: 15px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 2px;
+}
